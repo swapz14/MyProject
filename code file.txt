@@ -1,0 +1,51 @@
+1. Program: 
+
+a = [10,20,30,40,50,60,70,('a','b','c','d'), 'Ashita']
+
+for a in enumerate(a):
+    print(a)
+
+O/P : 
+(0, 10)
+(1, 20)
+(2, 30)
+(3, 40)
+(4, 50)
+(5, 60)
+(6, 70)
+(7, ('a', 'b', 'c', 'd'))
+(8, 'Ashita')
+
+
+
+
+
+
+2. Program:
+
+from tkinter import *  
+root = Tk()  
+# Code to add widget will go here……..  
+w = Label(root, width = "40", height = "15")  
+w.pack()  
+root.mainloop() 
+
+O/P:
+(0, 10)
+(1, 20)
+(2, 30)
+(3, 40)
+(4, 50)
+(5, 60)
+(6, 70)
+(7, ('a', 'b', 'c', 'd'))
+(8, 'Ashita')
+Traceback (most recent call last):
+  File "C:\Users\Amruta\Desktop\Python Programs\sample2.py", line 1, in <module>
+    from tkinter import *
+  File "C:\Users\Amruta\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 40, in <module>
+    import re
+  File "C:\Users\Amruta\AppData\Local\Programs\Python\Python39\lib\re.py", line 145, in <module>
+    class RegexFlag(enum.IntFlag):
+AttributeError: module 'enum' has no attribute 'IntFlag'
+
